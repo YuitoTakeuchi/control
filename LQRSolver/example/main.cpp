@@ -1,10 +1,15 @@
-#include "LQRSolver.hpp"
+// standard libraries
 #include <iostream>
 #include <fstream>
 #include <filesystem>
 #include <vector>
 #include <string>
+
+// external libraries
 #include "nlohmann/json.hpp"
+
+// internal libraries
+#include "LQRSolver.hpp"
 
 using json = nlohmann::json;
 
